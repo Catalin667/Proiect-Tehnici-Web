@@ -1,0 +1,259 @@
+.fundal{
+    background-color: rgb(221, 221, 255) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+.mydiv{
+    color:white;
+    border: 5px solid blue;
+    border-radius: 5px 0px;
+    padding-bottom: 10px;
+    margin: 10px 0 15px 200px;
+    text-align: center;
+    font-family:  fangsong;
+    font-size: xx-large ;
+    border-style: double;
+    text-shadow:0px 1.9px blue; 
+    text-emphasis-style:inherit ;
+}
+.button {
+    position: fixed;
+    bottom: 71%;
+    left: 1220px;
+    display: inline-block;
+    padding: 10px 45px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:blue;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px  rgb(63, 76, 255);
+    
+  }
+  
+.button:hover {
+    background-color: blue
+}
+  
+.button:active {
+    background-color: blue;
+    box-shadow: 0 5px rgb(63, 76, 255);
+    transform: translateY(4px);
+  }
+header{
+    background-image:url("chenar.png");
+    height: 250px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.imagine1{
+    float:left;
+    border-radius: 50%;
+    width: 150px;
+    border-style: double;
+    border-color: blue;
+  }
+.titluformular{
+    text-align:center;
+    text-indent: 20px;
+    text-shadow:0px 2px #adadff; 
+    text-decoration-style: solid;
+    font-style: italic;
+    color:rgb(0, 0, 104);
+    font-size: xx-large;
+  }
+.caseta{
+  text-align: center;
+  color: blue;
+  border: double;
+   
+   
+}
+.text2{
+
+  text-indent: 2px;
+  text-shadow:0px 2px #adadff; 
+  text-decoration-style: solid;
+  font-style: italic;
+  color:blue;
+  font-size:20px;
+  text-align:start;
+}
+.text3{
+
+  text-indent: 2px;
+  text-shadow:0px 2px #adadff; 
+  text-decoration-style: solid;
+  font-style: italic;
+  color:blue;
+  font-size:15px;
+  text-align:start;
+}
+.casuta{
+  text-indent: 2px;
+  text-shadow:0px 2px #adadff; 
+  text-decoration-style: solid;
+  font-style: italic;
+  color:blue;
+  font-size:15px;
+  text-align:start;
+  border:duble;
+  font-size: 20px;
+}
+.tabel{
+    width: max-content;
+    background-image:url("chenar.png");
+    background-repeat:round;
+    align-self: center;
+    position: relative;
+    left: 550px;
+    border-style:double;
+    border-color:blue;
+    box-shadow: 0 3px  rgb(63, 76, 255);
+    display:none;
+}
+.alegere{
+  color:blue;
+}
+.text4{
+  padding:6px;
+}
+.text_sf{
+  text-shadow:0px 2px #adadff; 
+  text-decoration-style: solid;
+  font-style: italic;
+  color:blue;
+  text-align:center;
+  font-size:30px;
+  background-image: url("chenar.png");
+  background-attachment:unset; 
+  background-size: 100% 100%;
+  display:none;
+  }
+  .tiberiu{
+    float:left;
+    border-radius: 50%;
+    width: 100px;
+    display:none;
+  }
+  .sfarsitstyle{
+    text-shadow:0px 2px #adadff; 
+    text-decoration-style: solid;
+    font-style:normal;
+    color:blue;
+    text-align:center;
+    font-size:30px;
+    background-image: url("chenar.png");
+    background-attachment:unset; 
+    background-size: 100% 100%;
+    }
+    .button1 {
+      position: fixed;
+      bottom: 66%;
+      right: 1220px;
+      display: inline-block;
+      padding: 10px 45px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color:blue;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 0 3px  rgb(63, 76, 255);
+    }
+    
+  .button1:hover {
+      background-color: blue
+  }
+    
+  .button1:active {
+      background-color: blue;
+      box-shadow: 0 5px rgb(63, 76, 255);
+      transform: translateY(4px);
+    }
+     
+    .text5{
+
+      text-indent: 2px;
+      text-shadow:0px 2px #adadff; 
+      text-decoration-style: solid;
+      font-style: italic;
+      color:blue;
+      font-size:20px;
+      text-align:start;
+      display:none;
+    }
+
+    .button3 {
+      position: fixed;
+      bottom: 60%;
+      right: 1219px;
+      display: inline-block;
+      padding: 10px 45px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color:blue;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 0 3px  rgb(63, 76, 255);
+    }
+    
+  .button3:hover {
+      background-color: blue
+  }
+    
+  .button3:active {
+      background-color: blue;
+      box-shadow: 0 5px rgb(63, 76, 255);
+      transform: translateY(4px);
+    }
+
+.button4{
+  cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color:blue;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 0 3px  rgb(63, 76, 255);
+}
+
+.button4:hover {
+  background-color: blue
+}
+
+.button4:active {
+  background-color: blue;
+  box-shadow: 0 5px rgb(63, 76, 255);
+  transform: translateY(4px);
+}
+
+.login{
+  width: max-content;
+    background-image:url("chenar.png");
+    background-repeat:round;
+    align-self: center;
+    position: relative;
+    left: 550px;
+    border-style:double;
+    border-color:blue;
+    box-shadow: 0 3px  rgb(63, 76, 255);
+    height: 300px;
+    width:400px;
+}
+ 

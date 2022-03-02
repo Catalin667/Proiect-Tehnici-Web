@@ -1,0 +1,612 @@
+.fundal{
+  background-color: rgb(221, 221, 255) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+ .fundal1{
+  background-image:url("chenar.png");
+  height: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+
+.piramida{
+float:initial;
+border-radius: 50%;
+width: 25px;
+
+}
+
+.mydiv{
+ color:white;
+ border: 5px solid blue;
+ border-radius: 5px 0px;
+ padding-bottom: 10px;
+ margin: 10px 0 15px 200px;
+ text-align: center;
+ font-family:  fangsong;
+ font-size: xx-large ;
+ border-style: double;
+ text-shadow:0px 1.9px blue; 
+ text-emphasis-style:inherit ;
+}
+.imagine1{
+  float:left;
+  border-radius: 50%;
+  width: 150px;
+  border-style: double;
+  border-color: blue;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-image:url("chenar.png");
+  border: 4px solid blue;
+  border-style:double;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: solid;
+  text-shadow:0px 1.9px blue; 
+}
+
+li {
+  text-align: center;
+  border-bottom: 1.4px solid blue;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: blue;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+  color: white;
+}
+header{
+  background-image:url("chenar.png");
+  height: 200px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.emoticon{
+ 
+border-radius: 30%;
+width: 150px;
+
+
+}
+.text{
+text-shadow:0px 2px #adadff; 
+text-decoration-style: solid;
+font-style: italic;
+color:blue;
+text-align:end;
+font-size:50px;
+}
+
+.text1{
+text-indent: 20px;
+text-shadow:0px 2px #adadff; 
+text-decoration-style: solid;
+font-style: italic;
+color:blue;
+}
+.text2{
+text-shadow:0px 2px #adadff; 
+text-decoration-style: solid;
+font-style: italic;
+color:blue;
+}
+.tiberiu{
+  float:left;
+  border-radius: 50%;
+  width: 160px;
+}
+
+.text_obisnuit{
+  font-style: italic;
+  font-size:large;
+  background-image:url("chenar.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color:black;
+}
+.text3{
+  text-shadow:0px 2px #adadff; 
+  text-decoration-style: solid;
+  font-style: italic;
+  color:blue;
+  }
+.artisti{
+  float:left;
+  border-radius: 50%;
+  width: 30px;
+}
+#principal {
+  width: 600px;
+  height: 750px;
+  border-style: none;
+  display: flex;
+  background-image:url("chenar.png") ;
+}
+
+#principal div {
+  -ms-flex: 1;     
+  flex: 1;
+}
+.text4{
+    
+  text-decoration-style: solid;
+  font-style: italic;
+  color:blue;
+}
+.text5{
+  text-align:start;
+  text-decoration-style: solid;
+  font-style:normal;
+  color:black;
+}
+.text6{
+text-align:center;
+color:red;
+font-size:xx-large;
+font-style: oblique;
+
+}
+.text7{
+  text-align:center;
+  color:blue;
+  font-size:xx-large;
+  font-style: italic;
+}
+
+.bara{
+  height:3px;
+  border-width:0;
+  color:blue;
+  background-color:blue;
+  border-style:double;
+}
+.imagine2{
+  float:left;
+  border-radius: 50%;
+  width: 150px;
+  
+}
+.text_obisnuit1{
+  text-align:left;
+  font-style: italic;
+  font-size:medium;
+  color:black;
+  background-image:url("chenar.png"); 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.text8{
+  color:blue;
+} 
+#principal1 {
+  width: 600px;
+  height: 610px;
+  border-style: none;
+  display: flex;
+  background-image:url("chenar.png") ;
+ 
+}
+
+#principal1 div {
+  -ms-flex: 1;    
+  flex: 1;
+}
+div.gallery {
+  border: 1px solid white;
+  background-color:white;
+}
+
+div.gallery:hover {
+  border: 1px solid blue;
+ 
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+   
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  text-decoration-style: solid;
+  font-style: normal;
+  color:blue;
+
+}
+
+* {
+  box-sizing: border-box;
+   
+}
+
+.responsive {
+  padding: 0 6px;
+  float:left;
+  width:  40.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+ .text9{
+    padding:6px;
+}
+.text_sf{
+  text-shadow:0px 2px #adadff; 
+  text-decoration-style: solid;
+  font-style: italic;
+  color:blue;
+  text-align:center;
+  font-size:50px;
+  background-image: url("chenar.png");
+  background-attachment:unset; 
+  background-size: 100% 100%;
+  }
+  /*
+  @media only screen and (max-width: 600px) {
+    .emoticon{
+      display:none;
+      }
+      .text{
+        display:none;
+        }
+        .text1{
+          text-indent: 20px;
+          text-shadow:0px 2px #adadff; 
+          text-decoration-style: solid;
+          margin-top:50px;
+          font-style: italic;
+          color:blue;
+          }
+
+
+    
+  }
+  */
+@media only screen and (max-width: 700px){
+  .emoticon{
+    display:none;
+    }
+    .text{
+      display:none;
+      }
+
+  .mydiv{
+   color:white;
+   border: 3px solid blue;
+   border-radius: 5px 0px;
+   padding-bottom: 10px;
+   margin: 0px 1px 1px 200px;
+   text-align: center;
+   font-family:  fangsong;
+   font-size: medium ;
+   border-style: double;
+   text-shadow:0px 1.9px blue; 
+   text-emphasis-style:inherit ;
+  
+  }
+  header{
+    background-image:url("chenar.png");
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-image:url("chenar.png");
+    border: 3px solid blue;
+    border-style:double;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 4px 8px;
+    text-decoration: solid;
+    text-shadow:0px 1.9px blue; 
+  
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1.4px solid blue;
+    font-size:14px;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li a.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: blue;
+    color: white;
+  }
+  
+  .text1{
+  
+  text-shadow:0px 2px #adadff; 
+  text-decoration-style: solid;
+  font-style: italic;
+  font-size:x-large;
+  margin-top:100px;
+  color:blue;
+  }
+  
+  .piramida{
+  float:initial;
+  border-radius: 50%;
+  width: 20px;
+  
+  }
+
+  
+  #principal {
+    width: 85.9%;
+    height: 450px;
+    border-style: none;
+    display: flex;
+    background-image:url("chenar.png") ;
+   
+  }
+  
+  #principal div {
+    -ms-flex: 1;    
+    flex: 1;
+  }
+
+  .text4{
+    
+    text-decoration-style: solid;
+    font-style: italic;
+    color:blue;
+    font-size:xx-small;
+  }
+  .text5{
+    text-align:start;
+    text-decoration-style: solid;
+    font-style:normal;
+    font-size:xx-small;
+    color:black;
+  }
+  
+  #principal1 {
+    width: 100.9%;
+    height: 400px;
+    border-style: none;
+    display: flex;
+    background-image:url("chenar.png") ;
+   
+  }
+  
+  #principal1 div {
+    -ms-flex: 1;    
+    flex: 1;
+  }
+  .text_sf{
+    text-shadow:0px 2px #adadff; 
+    text-decoration-style: solid;
+    font-style: italic;
+    color:blue;
+    text-align:center;
+    font-size:20px;
+    background-image: url("chenar.png");
+    background-attachment:unset; 
+    background-size: 100% 100%;
+    }
+    .text_obisnuit1{
+      text-align:left;
+      font-style: italic;
+      font-size:small;
+      color:black;
+      background-image:url("chenar.png"); 
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+    .tiberiu{
+      float:left;
+      border-radius: 50%;
+      width: 100px;
+    }
+    .imagine1{
+      float:left;
+      border-radius: 50%;
+      width: 150px;
+      border-style: double;
+      border-color: blue;
+    }
+    .text6{
+      text-align:center;
+      color:red;
+      font-size:medium;
+      font-style: oblique;
+      
+      }
+      .text7{
+        text-align:center;
+        color:blue;
+        font-size:medium;
+        font-style: italic;
+      }
+    
+.text_obisnuit{
+  font-style: italic;
+  font-size:medium;
+  background-image:url("chenar.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color:black;
+}
+
+  }
+ 
+   
+  @media only screen and (min-width: 700px){
+     .text{
+      text-shadow:0px 2px #adadff; 
+      text-decoration-style: solid;
+      font-style: italic;
+      color:blue;
+      text-align:end;
+      font-size:xx-large;
+      }
+       .emoticon{
+      border-radius: 10%;
+      width: 50px;
+       } 
+ 
+       ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-image:url("chenar.png");
+        border: 3px solid blue;
+        border-style:double;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        padding: 4px 16px;
+        text-decoration: solid;
+        text-shadow:0px 1.9px blue; 
+      
+      }
+      
+      li {
+        text-align: center;
+        border-bottom: 1.4px solid blue;
+        font-size:23px;
+      }
+      
+      li:last-child {
+        border-bottom: none;
+      }
+      
+      li a.active {
+        background-color: blue;
+        color: white;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: blue;
+        color: white;
+      }
+      .text_obisnuit{
+        font-style: italic;
+        font-size:medium;
+        background-image:url("chenar.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color:black;
+      }
+     
+      .text_obisnuit1{
+        text-align:left;
+        font-style: italic;
+        font-size:medium;
+        color:black;
+        background-image:url("chenar.png"); 
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: 100% 100%;
+      }
+      .imagine1{
+        float:left;
+        border-radius: 50%;
+        width: 150px;
+        border-style: double;
+        border-color: blue;
+      }
+      .text1{
+        text-indent: 20px;
+        text-shadow:0px 2px #adadff; 
+        text-decoration-style: solid;
+        font-style: italic;
+        color:blue;
+        margin-top:100px;
+        }
+         
+        .text6{
+          text-align:center;
+          color:red;
+          font-size:large;
+          font-style: oblique;
+          
+          }
+          .text7{
+            text-align:center;
+            color:blue;
+            font-size:large;
+            font-style: italic;
+          }
+          .text_sf{
+            text-shadow:0px 2px #adadff; 
+            text-decoration-style: solid;
+            font-style: italic;
+            color:blue;
+            text-align:center;
+            font-size:20px;
+            background-image: url("chenar.png");
+            background-attachment:unset; 
+            background-size: 100% 100%;
+            }
+
+  }
+   

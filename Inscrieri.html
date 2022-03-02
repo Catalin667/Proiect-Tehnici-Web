@@ -1,0 +1,225 @@
+<!DOCTYPE html> 
+<html lang="ro"></html>
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style2.css" />
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Inscrieri</title> 
+    
+</head>
+<body class="fundal">
+ 
+<header onclick="target1(event)">
+    
+    <img src="Imagine_pt_proiect.jpg" class="imagine1" alt="0">
+    <div class="mydiv">Înscrieri</div>
+    <a href="Proiect1-TW.html"><button class="button">Înapoi</button></a>
+</header>
+
+    <div class="tabel" id="Insc" >
+    <form action="#"  name="Inscrierestudenti" onsubmit="return(validare());">
+    <table>
+        <tr>
+            <td colspan=2 class="titluformular">
+                <b>Formular de înscriere</b>
+            </td>
+            </tr>
+        <tr>
+            <td>
+               <br>           
+            </td>
+        </tr>
+
+        <tr>
+            <td><b class="text2" >V-ati mai inscris la noi??<br>(Intrebare optionala)</b></td>
+            <td><input class="caseta" type=text name=raspuns id="raspuns" size="40" placeholder="DA/NU" onkeyup="majuscule()"></td>
+        </tr>
+
+        <tr>
+            <td><b class="text2" >Nume:</b></td>
+            <td><input class="caseta" type=text name=nume id="nume" size="40" placeholder="Nume"></td>
+        </tr>
+        <tr>
+            <td><b class="text2">Prenume:</b></td>
+            <td><input class="caseta" type=text name=prenume id="prenume" size="40" placeholder="Prenume"></td>
+        </tr>
+        <tr>
+            <td><b class="text2">Prenumele tatalui:</b></td>
+            <td><input class="caseta" type=text name=prenumet id="prenumet" placeholder="Prenume" size="40"></td>
+        </tr>
+        <tr>
+            <td><b class="text2">Prenumele mamei:</b></td>
+            <td><input class="caseta" type=text name=prenumem id="prenumem" placeholder="Prenume" size="40"></td>
+        </tr>
+        <tr>
+            <td><b class="text2">Adresa:</b></td>
+            <td><input class="caseta" type=text name=adresa id="adresa" placeholder="str. strada,nr. numar,bl. numar" size="40"></td>
+        </tr>
+        <tr>
+            <td><b class="text2">Oras:</b></td>
+            <td><input class="caseta" type=text name=oras id="oras" placeholder="Oras" size="40"></td>
+        </tr>
+        <tr>
+            <td><b class="text2">Judet:</b></td>
+            <td><input class="caseta" type=text name=judet id="judet" placeholder="Judet" size="40"></td>
+        </tr>
+        <tr>
+            <td><b class="text2">Email:</b></td>
+            <td><input class="caseta" type=text name=email id="email" placeholder="nume_adresa@yahoo.com" size="40"></td>
+        </tr>
+        <tr>
+            <td><b class="text2">Telefon:</b></td>
+            <td><input class="caseta" type=number name=telefon id="telefon" placeholder="XXXXXXXXXX" size="60"></td>
+        </tr>
+        <tr>
+            <td class="text2" id="sex"><b>Sex:</b></td>
+            <td class="text2">
+                <b>
+                    <input  type="radio" name="sex" value="Barbat" size="10">Barbat
+                    <input  type="radio" name="sex" value="Femeie" size="10">Femeie
+                     
+                </b>
+            </td>
+        </tr>
+
+        <tr>
+
+            <td class="text2" id="program_studiu"><b>Program<br>de studiu:</b></td>
+          
+            <td><select id="Specializare" class="casuta" name="Domeniu" >
+          
+            <option  value="-1" selected> Selecteaza un domeniu</option>
+          
+            <option class="text3"  value="Canto" >Canto</option>
+          
+            <option class="text3"  value="Instrumente"  >Instrumente</option>
+          
+            <option class="text3"  value="Ipopulare"  >Instrumente populare</option>
+          
+            <option class="text3"  value="Teatru"   >Teatru</option>
+
+            <option class="text3"  value="Aplastice"  >Arte plastice</option>
+
+            <option class="text3"  value="Avizuale"  >Arte vizuale</option>
+      
+          
+            </select></td>
+            </tr>
+               
+    </table>
+     
+  
+   
+    <div id="Canto">
+    <b class="text2">
+        <b class="text2" id="specializare">Selecteaza o specializare:</b><br>
+        <b>Canto</b><br> 
+        <input  type="radio" name="muzica" value="mpop" size="10"> Muzica Pop<br>
+        <input  type="radio" name="muzica" value="mclasica" size="10">Muzica Clasica<br>
+        <input  type="radio" name="muzica" value="mpopulara" size="10">Muzica Populara<br>
+    </b>
+    </div>
+
+    <div id="Instrumente">
+        <b class="text2">
+            <b class="text2">Selecteaza o specializare:</b><br>
+            <b>Instrumente</b><br> 
+            <input  type="radio" name="muzica1" value="pian" size="10"> Pian<br>
+            <input  type="radio" name="muzica1" value="chitara" size="10">Chitara<br>
+            <input  type="radio" name="muzica1" value="vioara" size="10">Vioara<br>
+            <input  type="radio" name="muzica1" value="flaut" size="10">Flaut<br>
+            <input  type="radio" name="muzica1" value="clarinet" size="10">Clarinet<br>
+            <input  type="radio" name="muzica1" value="saxofon" size="10">Saxofon<br>
+            <input  type="radio" name="muzica1" value="contrabas" size="10">Contrabas<br>
+            <input  type="radio" name="muzica1" value="tambal" size="10">Tambal<br>
+            <input  type="radio" name="muzica1" value="nai" size="10">Nai<br>
+            <input  type="radio" name="muzica1" value="blockflote" size="10">Blockflote<br>
+            <input  type="radio" name="muzica1" value="trompeta" size="10">trompeta<br>
+            <input  type="radio" name="muzica1" value="percutie" size="10">Percutie<br>
+            <input  type="radio" name="muzica1" value="acordeon" size="10">Acordeon<br>
+            <input  type="radio" name="muzica1" value="orga" size="10">Orga <br>
+        </b>
+        </div>
+
+        <div id="Ipopulare">
+            <b class="text2">
+                <b class="text2">Selecteaza o specializare:</b><br>
+                <b>Instrumente populare</b><br> 
+                <input  type="radio" name="muzica2" value="fluier" size="10">Fluier<br>
+                <input  type="radio" name="muzica2" value="caval" size="10">Caval<br>
+                <input  type="radio" name="muzica2" value="cobza" size="10">Cobza<br>
+                <input  type="radio" name="muzica2" value="flaut" size="10">Flaut<br>
+                <input  type="radio" name="muzica2" value="cimpoi" size="10">Cimpoi<br>
+                <input  type="radio" name="muzica2" value="bucium" size="10">Bucium<br>
+                <input  type="radio" name="muzica2" value="contrabas" size="10">Contrabas<br>
+                <input  type="radio" name="muzica2" value="ocarina" size="10">Ocarina<br>
+                <input  type="radio" name="muzica2" value="naiimprovizatie" size="10">Improvizatie nai<br>
+                <input  type="radio" name="muzica2" value="ansamblucoral" size="10">Ansamblul coral<br>
+                <input  type="radio" name="muzica2" value="ainstrumental" size="10">Ansamblu Instrumental<br>
+                
+            </b>
+            </div>
+
+            <div id="Teatru">
+                <b class="text2">
+                    <b class="text2">Selecteaza o specializare:</b><br>
+                    <b>Teatru</b><br> 
+                    <input  type="radio" name="teatru" value="teatrupăpuși" size="10"> Teatru păpuși<br>
+                    <input  type="radio" name="teatru" value="teatrumuzical" size="10">Teatru muzical<br>
+                    <input  type="radio" name="teatru" value="actorie" size="10"> Actorie<br>
+                </b>
+                </div>
+
+                <div id="Avizuale">
+                    <b class="text2">
+                        <b class="text2">Selecteaza o specializare:</b><br>
+                        <b>Arte vizuale</b><br> 
+                        <input  type="radio" name="artav" value="afotografica" size="10"> Artă fotografică<br>
+                        <input  type="radio" name="artav" value="acinematografica" size="10">Artă cinematografică<br>    
+                    </b>
+                    </div>
+
+                    <div id="Aplastice">
+                        <b class="text2">
+                            <b class="text2">Selecteaza o specializare:</b><br>
+                            <b>Arte plastice</b><br> 
+                            <input  type="radio" name="ap" value="pictura" size="10"> Pictura<br>
+                            <input  type="radio" name="ap" value="grafica" size="10">Grafica<br>
+                            <input  type="radio" name="ap" value="sculptura" size="10">Sculptura<br>
+                            <input  type="radio" name="ap" value="adecorativ" size="10">Arta decorativa<br>
+                            <input  type="radio" name="ap" value="apopulara" size="10">Arta Populara<br>
+                            <input  type="radio" name="ap" value="iconografie" size="10">Iconografie<br>
+                            <input  type="radio" name="ap" value="dvestimentar" size="10">Design Vestimentar<br> 
+                        </b>
+                        </div>
+
+    <input class="text2"  type="reset" value="Resetare">
+    <input class="text2"  type="submit" value="Inscrie-te!">
+    </form>
+    </div>
+    <button id="detalii"   class="button1" onclick="afisare_student()">Vezi detaliile inscrierii</button>
+    <div class="text5" id="date_inscr">
+        <b>Datele inscrierii dumneavoastra sunt:</b>   
+        <div id="div"></div>
+    </div>
+    <button class = "button3" onclick="preia_informatii()" >Inregistreaza inscrierea</button>
+    <button class="button4" onclick="update()">PUT</button>
+    <button class="button4" onclick="deleteStudent()">DELETE</button>
+    <button class="button4" onclick="notFound()">404</button>
+    <div class="text4" >
+    <div class="text_sf" id="sfarsit" onclick="target(event)">
+     <img id="tiberiu" onclick="target(event)" src="http://www.pressalert.ro/wp-content/uploads/2015/10/3.-tiberiu-brediceanu.jpg" class="tiberiu" alt="Tiberiu Brediceanu">   
+      Mulțumim că ai ales să vizitezi site-ul nostru!!<br>
+      Și nu uita!!<br>
+      Arta este ca și natura, simplă și profundă, una și diversă. ("Victor Hugo")<br><br>
+    Vă dorim o zi frumoasă!<br><br>
+    </div>
+ </div>
+    </body>
+
+ 
+
+
+ 
